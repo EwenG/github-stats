@@ -107,7 +107,7 @@
                                (html
                                  [:div#header.row
                                   [:div.col-md-12.center-block
-                                   [:img#logo.center-block {:src "img/chart.png"}]]]))}))
+                                   [:img#logo.center-block {:src "img/logo.png"}]]]))}))
 
 (def pagination
   (.createClass js/React

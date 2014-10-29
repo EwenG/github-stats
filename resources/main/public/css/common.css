@@ -1,21 +1,30 @@
 #header{
-margin-top:20px;
-margin-bottom:20px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 #welcome-button{
-margin-top:20px;
+    margin-top:20px;
 }
 
 #no-result{
-margin-top:20px;
+    margin-top:20px;
 }
 
 #results{
-margin-top:20px;
+    margin-top:20px;
 }
 
 .avatar{
    width:150px;
    height:150px;
 }
+
+#commits-link{
+    float:right;
+}
+#contributors-link{
+    float:right;
+}
+
+#contributors-link:before{content:"";}

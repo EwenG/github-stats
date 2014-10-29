@@ -17,6 +17,7 @@
 
 
 
+
 (def breadcrumb
   (.createClass js/React
                 #js {:render (fn []
@@ -24,20 +25,22 @@
                                         (let [{:keys [page]} (get-in-props this :state)
                                               breadcrumb-switch (aget (.-props this) "on-breadcrumb-switch")]
                                           (html [:ol.breadcrumb
+                                                 [:li [:a {:href "."}
+                                                       "Search other repository"]]
+                                                 (if (= :commits page)
+                                                   [:li#commits-link.active  "Commits"]
+                                                   [:li#commits-link  [:a {:href "#"
+                                                                                       :on-click (fn [e]
+                                                                                                   (.preventDefault e)
+                                                                                                   (breadcrumb-switch :commits))}
+                                                                                   "Commits"]])
                                                  (if (= :contributors page)
-                                                   [:li.active "Contributors"]
-                                                   [:li [:a {:href "#"
+                                                   [:li#contributors-link.active  "Contributors"]
+                                                   [:li#contributors-link  [:a {:href "#"
                                                              :on-click (fn [e]
                                                                          (.preventDefault e)
                                                                          (breadcrumb-switch :contributors))}
-                                                         "Contributors"]])
-                                                 (if (= :commits page)
-                                                   [:li.active "Commits"]
-                                                   [:li [:a {:href "#"
-                                                             :on-click (fn [e]
-                                                                         (.preventDefault e)
-                                                                         (breadcrumb-switch :commits))}
-                                                         "Commits"]])]))))}))
+                                                         "Contributors"]])]))))}))
 
 (def contributors
   (.createClass js/React

@@ -44,15 +44,18 @@
                     [:body]
                     (enlive/append
                       (when (:dev (env/env))
-                        (enlive/html [:script "goog.require('ewen.github_stats.repository');"]
-                                     (browser-connected-repl-html))))
+                        (enlive/html [:script "goog.require('ewen.github_stats.repository');"])))
                     [:body]
                     (enlive/append
                       (enlive/html
                         (if full_name [:script (format "ewen.github_stats.repository.main('%s','%s');"
                                                        repository full_name)]
                                       [:script (format "ewen.github_stats.repository.main('%s');"
-                                                       repository)]))))
+                                                       repository)])))
+                    [:body]
+                    (enlive/append
+                      (when (:dev (env/env))
+                        (enlive/html (browser-connected-repl-html)))))
 
 
 
