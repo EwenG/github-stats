@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   width="330.63254"
+   height="256.10178"
+   sodipodi:docname="chart.svg"
+   inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="374.45318"
+     inkscape:cy="43.586803"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#7ea44d;fill-opacity:1;stroke:none"
+     id="path4219-5-5"
+     sodipodi:cx="-777.5"
+     sodipodi:cy="-291.5"
+     sodipodi:rx="63.642136"
+     sodipodi:ry="22.590097"
+     d="m -713.85786,-291.5 a 63.642136,22.590097 0 1 1 -127.28428,0 63.642136,22.590097 0 1 1 127.28428,0 z"
+     transform="matrix(1.249396,0,0,1.249396,1222.5237,591.9094)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#574c3a;stroke-width:5.49734259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="M 208.87072,237.97645 C 257.27999,1.6360224 209.15425,238.00608 259.12713,0.57002523 309.10002,238.00612 260.97429,1.6360224 309.38357,237.97645"
+     id="path3039-6"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#9fdae8;fill-opacity:1;stroke:none"
+     id="path4219-5"
+     sodipodi:cx="-777.5"
+     sodipodi:cy="-291.5"
+     sodipodi:rx="63.642136"
+     sodipodi:ry="22.590097"
+     d="m -713.85786,-291.5 a 63.642136,22.590097 0 1 1 -127.28428,0 63.642136,22.590097 0 1 1 127.28428,0 z"
+     transform="matrix(1.249396,0,0,1.249396,1112.5769,591.9094)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#7bbbdf;fill-opacity:1;stroke:none"
+     d="m 106.46635,253.08221 c 0.5046,-15.41105 0.90001,-13.58657 -1.40706,-23.22627 -0.95618,-3.99522 -10.001216,-5.48662 -8.986719,-9.46741 0.903776,-3.54636 16.376509,0.68234 16.376509,0.68234 0,0 5.75813,3.78687 6.54145,7.31798 2.73855,12.3452 -1.83977,12.61084 2.38619,26.59843 m 38.78543,0.10746 c 4.22597,-13.98761 -0.35235,-14.37829 2.3862,-26.72351 0.78332,-3.53109 6.54145,-7.31798 6.54145,-7.31798 0,0 15.47273,-4.2287 16.37651,-0.68234 1.01449,3.9808 -8.03054,5.47219 -8.98672,9.46741 -2.30707,9.6397 -1.91166,8.08853 -1.40706,23.49958"
+     id="path4086-7-1"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csscsccscssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#7bbbdf;fill-opacity:1;stroke:none"
+     d="m 124.33362,255.26989 c 0,0 -0.0463,4.65884 0.44174,-14.3519 0.22362,-8.7121 -8.60949,-8.73573 -6.1842,-12.81011 1.84433,-3.09838 19.38267,2.46205 19.65691,13.03098 0.46693,17.99491 -0.22087,14.71551 -0.22087,14.71551"
+     id="path4124-4-4"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#60862f;stroke-width:5.49734259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 259.14366,255.71672 0,-26.98303"
+     id="path4481-0"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#574c3a;stroke-width:5.49734259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 259.14366,1.1502572 0,246.0802028"
+     id="path4481"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <rect
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="rect4483"
+     width="127.21768"
+     height="90.996017"
+     x="195.0582"
+     y="57.139294"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 67.858186,45.068444 c 0,0 -5.264005,-25.541826 0.829999,-38.1049762 18.11974,-1.0214647 38.153765,14.8031362 38.153765,14.8031362 0,0 34.57839,-10.402518 64.74625,-0.344234 14.56654,-14.1457832 34.97473,-14.1233681 34.97473,-14.1233681 0,0 7.62117,14.7752171 3.19022,33.8993721 16.93905,15.971307 19.2854,48.231272 10.17422,74.659766 -6.32755,18.35412 -24.55578,23.51772 -49.69163,30.38008 -19.00856,5.18953 -42.70726,3.96877 -66.38314,-1.39075 C 82.637329,140.04495 63.270204,127.00071 58.798079,113.22241 43.600788,66.400694 67.858186,45.068444 67.858186,45.068444 z"
+     id="path3840-8"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccssssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#f6cab1;fill-opacity:1;stroke:#000000;stroke-width:1.16704583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 179.15067,132.53701 c 14.10111,-0.3724 18.51709,-15.1603 18.63052,-32.21528 0.1102,-16.566086 -6.02435,-32.839458 -20.95933,-32.991555 -36.6658,-0.373396 0.11995,0.179875 -36.87091,-0.344622 -36.99093,0.611523 -0.20513,0.05825 -36.87093,0.431648 -14.934979,0.152097 -21.069476,16.425469 -20.959329,32.991559 0.113445,17.05499 4.52941,31.84289 18.630519,32.21528 39.45694,1.04201 -2.244654,-0.0632 38.11907,0.27601 40.36373,-0.28905 0.82345,0.67897 40.28039,-0.36304 z"
+     id="path3898-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssscssscs"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#574c3a;stroke-width:5.49734259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 297.37196,150.05321 -77.34005,0"
+     id="path4481-3"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#574c3a;stroke-width:5.49734259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 275.72727,55.099114 -33.60895,0"
+     id="path4481-3-0"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path3992-3-3"
+     sodipodi:cx="-427.69772"
+     sodipodi:cy="97.44883"
+     sodipodi:rx="10.642556"
+     sodipodi:ry="16.900864"
+     d="m -417.05517,97.44883 a 10.642556,16.900864 0 1 1 -21.28511,0 10.642556,16.900864 0 1 1 21.28511,0 z"
+     transform="matrix(1.2930245,0,0,1.1643766,724.50485,-14.869022)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#b3554d;fill-opacity:1;stroke:none"
+     id="path3954-3"
+     sodipodi:cx="-437.88559"
+     sodipodi:cy="96.419495"
+     sodipodi:rx="6.613277"
+     sodipodi:ry="10.347458"
+     d="m -431.27231,96.419495 a 6.613277,10.347458 0 1 1 -0.0399,-1.134326"
+     sodipodi:start="0"
+     sodipodi:end="6.1733409"
+     sodipodi:open="true"
+     transform="matrix(1.249396,0,0,1.249396,717.32713,-21.452492)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path3992-3"
+     sodipodi:cx="-427.69772"
+     sodipodi:cy="97.44883"
+     sodipodi:rx="10.642556"
+     sodipodi:ry="16.900864"
+     d="m -417.05517,97.44883 a 10.642556,16.900864 0 1 1 -21.28511,0 10.642556,16.900864 0 1 1 21.28511,0 z"
+     transform="matrix(1.2930245,0,0,1.1643766,661.55297,-15.284544)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#b3554d;fill-opacity:1;stroke:none"
+     id="path3954-3-5"
+     sodipodi:cx="-437.88559"
+     sodipodi:cy="96.419495"
+     sodipodi:rx="6.613277"
+     sodipodi:ry="10.347458"
+     d="m -431.27231,96.419495 a 6.613277,10.347458 0 1 1 -0.0399,-1.134326"
+     sodipodi:start="0"
+     sodipodi:end="6.1733409"
+     sodipodi:open="true"
+     transform="matrix(1.249396,0,0,1.249396,657.07615,-21.452491)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path4030-0"
+     sodipodi:cx="-479.41391"
+     sodipodi:cy="73.503082"
+     sodipodi:rx="2.2557182"
+     sodipodi:ry="2.4101903"
+     d="m -477.15819,73.503082 a 2.2557182,2.4101903 0 1 1 -4.51144,0 2.2557182,2.4101903 0 1 1 4.51144,0 z"
+     transform="matrix(1.0651868,0,0,1.0651868,618.59874,14.39151)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path4030-0-3"
+     sodipodi:cx="-479.41391"
+     sodipodi:cy="73.503082"
+     sodipodi:rx="2.2557182"
+     sodipodi:ry="2.4101903"
+     d="m -477.15819,73.503082 a 2.2557182,2.4101903 0 1 1 -4.51144,0 2.2557182,2.4101903 0 1 1 4.51144,0 z"
+     transform="matrix(0.97308222,0,0,0.97308222,634.87393,20.798029)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 117.31113,147.67043 c -3.79337,1.28966 -11.31689,13.83124 -10.84478,28.24965 0.5046,15.41105 0.90001,26.35383 -1.40706,35.99353 -0.95618,3.99522 -10.001216,5.48661 -8.986719,9.46741 0.903776,3.54636 16.376509,-0.68234 16.376509,-0.68234 0,0 5.75813,-3.78688 6.54145,-7.31798 2.73855,-12.34521 -1.83977,-30.72753 2.38619,-44.71512 1.9706,-6.52251 19.39271,-6.45525 19.39271,-6.45525 0,0 17.42212,-0.0497 19.39272,6.47282 4.22597,13.9876 -0.35235,32.36991 2.3862,44.71513 0.78332,3.53109 6.54145,7.31797 6.54145,7.31797 0,0 15.47273,4.22871 16.37651,0.68235 1.01449,-3.9808 -8.03054,-5.47219 -8.98672,-9.46741 -2.30707,-9.6397 -1.91166,-20.5825 -1.40706,-35.99354 0.47211,-14.4184 -7.05142,-26.95998 -10.84478,-28.24964 -5.55348,-1.88808 -23.45832,-0.96407 -23.45832,-0.96407 0,0 -17.90482,-0.94158 -23.4583,0.94649 z"
+     id="path4086-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssscsscsscsssscs"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 124.33362,163.61059 c 0,0 -0.0463,35.32182 0.44174,54.33257 0.22362,8.7121 -8.60949,8.73572 -6.1842,12.8101 1.84433,3.09838 19.48134,-2.45994 19.65691,-13.03097 0.42789,-25.76459 -0.22087,-56.32035 -0.22087,-56.32035"
+     id="path4124-4"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#7bbbdf;fill-opacity:1;stroke:none"
+     d="m 157.21768,255.39459 c 0,0 0.0463,4.53414 -0.44174,-14.4766 -0.22362,-8.7121 8.60949,-8.73573 6.18419,-12.81011 -1.84433,-3.09838 -19.51366,2.45946 -19.6569,13.03098 -0.23464,17.31654 0.22087,14.84045 0.22087,14.84045"
+     id="path4124-4-4-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 156.67637,163.38972 c 0,0 0.0463,35.32182 -0.44173,54.33257 -0.22362,8.71211 8.60948,8.73574 6.18419,12.81012 -1.84433,3.09838 -19.48134,-2.45995 -19.6569,-13.03099 -0.4279,-25.76459 0.22086,-56.32033 0.22086,-56.32033"
+     id="path4124-4-6"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="m 107.92067,178.82263 c 0,0 -8.738952,1.12158 -12.810122,1.10432 -7.754176,-0.0328 -14.495966,-2.70702 -20.319489,-7.50937 -5.864377,-4.83605 -8.243152,-13.9197 -14.135303,-20.09863 -3.579645,-3.75388 -12.685955,-6.07117 -11.484936,-9.49716 1.306706,-3.7275 9.141393,-1.94234 13.251844,-0.22087 10.375871,4.34548 13.774991,21.02232 25.178515,22.96987 10.193535,1.7409 20.761211,-1.32519 20.761211,-1.32519"
+     id="path4162-1"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssssssc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="path4201"
+     sodipodi:cx="-574.5"
+     sodipodi:cy="104"
+     sodipodi:rx="65"
+     sodipodi:ry="0.5"
+     d="m -509.5,104 a 65,0.5 0 0 1 -0.13188,0.0318"
+     sodipodi:start="0"
+     sodipodi:end="0.06371088"
+     sodipodi:open="true"
+     transform="translate(49.53598,-10.53125)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.78909218,0,0,0.78909218,617.02487,109.42761)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.78909218,0,0,0.78909218,609.50965,108.98588)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.68337389,0.39454613,-0.39454613,0.68337389,561.6128,374.35283)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9-8"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.55797244,0.55797246,-0.55797246,0.55797244,485.86388,486.58319)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9-8-7"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.55797244,0.55797246,-0.55797246,0.55797244,481.66805,481.02878)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9-8-7-0"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.44987391,0.44987394,-0.44987394,0.44987391,398.4072,412.8466)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9-8-7-0-8"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.32375897,0.32375899,-0.32375899,0.32375897,302.30025,335.63818)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#c4d2d3;fill-opacity:1;stroke:none"
+     id="path4313-8-9-8-7-0-8-3"
+     sodipodi:cx="-659.11188"
+     sodipodi:cy="75.363731"
+     sodipodi:rx="2.563262"
+     sodipodi:ry="1.6793786"
+     d="m -656.54862,75.363731 a 2.563262,1.6793786 0 1 1 -5.12652,0 2.563262,1.6793786 0 1 1 5.12652,0 z"
+     transform="matrix(0.24732177,0.24732179,-0.24732179,0.24732177,242.15919,288.53076)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ad7a65;fill-opacity:1;stroke:none"
+     id="path4441"
+     sodipodi:cx="-451.31091"
+     sodipodi:cy="12.87317"
+     sodipodi:rx="2.1213202"
+     sodipodi:ry="2.1213202"
+     d="m -449.18959,12.87317 a 2.1213202,2.1213202 0 1 1 -4.24264,0 2.1213202,2.1213202 0 1 1 4.24264,0 z"
+     transform="matrix(1.3535123,0,0,1.3535123,751.06321,98.465161)"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#9c6450;stroke-width:1.24939597px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 134.58455,121.05457 c 0,0 2.50438,4.53456 6.07377,4.41728 3.79391,-0.12469 6.62592,-4.63814 6.62592,-4.63814"
+     id="path4443"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csc"
+     inkscape:export-filename="/home/ewen/clojure/github-stats/resources/main/public/img/chart.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:#60862f;fill-opacity:1;stroke:none"
+     d="m 306.59002,238.54306 -0.27606,9.38673 5.41117,-1.76693 0.38651,-8.77934 z"
+     id="path4542"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     style="fill:#60862f;fill-opacity:1;stroke:none"
+     d="m 209.68868,242.07133 1.35084,9.90539 5.54839,1.11772 -1.74127,-14.44095 z"
+     id="path4544"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <g
+     id="g4655"
+     style="stroke:#fe0000;stroke-opacity:0.58256884"
+     transform="matrix(1.249396,0,0,1.249396,49.0625,-0.0032652)">
+    <g
+       style="stroke:#fe0000;stroke-opacity:0.58256884"
+       id="g4649">
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 147,75.983063 43,0"
+         id="path4546-3"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 147,65.983063 43,0"
+         id="path4546-0"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 147,95.983063 43,0"
+         id="path4546-38"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 147,85.983063 43,0"
+         id="path4546-0-2"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       style="stroke:#fe0000;stroke-opacity:0.58256884"
+       transform="matrix(0,-1,1,0,87.51694,367.48306)"
+       id="g4643">
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 265,75.983063 43,0"
+         id="path4546-3-4"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 265,65.983063 43,0"
+         id="path4546-0-3"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 265,95.983063 43,0"
+         id="path4546-38-4"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#fe0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.58256884"
+         d="m 265,85.983063 43,0"
+         id="path4546-0-2-0"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:4.99758387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 287.52222,127.77971 0,-53.228244"
+     id="path4667"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:4.99758387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 275.1532,127.77971 0,-32.457033"
+     id="path4667-1"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:4.99758387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 262.78418,127.77971 0,-7.27852"
+     id="path4667-1-5"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:4.99758387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 237.79626,127.77971 0,-7.27853"
+     id="path4667-1-5-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:4.99758387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 250.16528,127.77971 0,-19.75734"
+     id="path4667-1-9"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <g
+     id="g4794"
+     transform="matrix(1.2425517,0.13059745,-0.13059745,1.2425517,67.537949,-18.953936)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4741"
+       d="m 84.000001,161.98306 12,-11"
+       style="fill:none;stroke:#574c3a;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4768"
+       d="M 97.154019,152.65343 145.77577,106.96485 94.489631,149.62637 z"
+       style="fill:#574c3a;fill-opacity:1;stroke:none" />
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 57.0625,101.10178 c -26.5,-1.833333 -34,-1.66667 -57,1.5"
+     id="path3113"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 58.5625,108.10178 c -28.666667,0.16667 -34.833333,1.33333 -58,7"
+     id="path3115"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#9fdae8;fill-opacity:1;stroke:none"
+     d="m 49.035588,158.21343 c -0.774352,0.9848 -1.922705,1.33825 -2.099874,2.57843 -0.130171,0.9112 0.519553,1.95525 1.892767,2.37132 1.133502,0.34344 2.698044,0.48393 3.535534,-0.35356 0.75,-0.75 0.930454,-1.62305 0,-3.18198 -1.584381,-2.65455 -0.73354,-6.83948 -1.59099,-6.89429 -1.089886,-0.0697 -0.366625,3.73672 -1.737437,5.48008 z"
+     id="path3117"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssssss" />
+</svg>
