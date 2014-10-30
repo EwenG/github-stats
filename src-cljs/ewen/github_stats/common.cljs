@@ -1,7 +1,9 @@
 (ns ewen.github-stats.common
   (:require [cljs.core.match]
-            [sablono.core :refer-macros [html]])
-  (:require-macros [cljs.core.match.macros :refer [match]]))
+            [sablono.core :refer-macros [html]]
+            [schema.core :as s])
+  (:require-macros [cljs.core.match.macros :refer [match]]
+                   [schema.macros :as sm]))
 
 ;React utilities
 
@@ -91,7 +93,10 @@
                   :else (conj pages :placeholder p)))
           [] pages))
 
-(defn collapse-pagination [page-count current-page]
+(sm/defn ^:always-validate collapse-pagination
+  :- [(s/either s/Int (s/eq :placeholder))]
+  [page-count :- s/Int
+   current-page :- s/Int]
   (-> (pagination-blocks page-count current-page)
       insert-placeholders))
 

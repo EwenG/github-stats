@@ -5,6 +5,7 @@
             [domina.css :refer [sel]]
             [goog.string.format]
             [cljs.core.match]
+            [schema.core :as s]
             [ewen.github-stats.common :refer [get-in-props get-in-state api-response->json
                                               header-map->page-info link-header->map
                                               response->links header-map->page-info
