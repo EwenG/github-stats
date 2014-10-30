@@ -62,7 +62,7 @@
                                        {:role "alert"}
                                                 [:strong "Sorry!"]
                                                 " No result found"]]))}))
-
+;Github ribbon.
 (def github-repo
   (.createClass js/React
                 #js {:render (fn []
@@ -75,6 +75,32 @@
                                              :alt                "Fork me on GitHub"
                                              :data-canonical-src "https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"}]]))}))
 
+
+(defn search-page-button [search-string result-by-page-count processing on-search]
+  [:button.btn.btn-default
+   {:type     "button"
+    :disabled (when (or (nil? search-string)
+                        (= "" (.trim search-string))
+                        processing)
+                "disabled")
+    :on-click #(on-search search-string
+                          result-by-page-count
+                          1)}
+   (if processing "Loading..." "Search")])
+
+(defn home-page-button [search-string result-by-page-count processing on-search]
+  [:div#welcome-button.row
+   [:div.col-md-12.center-block
+    [:button.btn.btn-primary.btn-lg.center-block
+     {:type     "button"
+      :disabled (when (or (nil? search-string)
+                          (= "" (.trim search-string))
+                          processing)
+                  "disabled")
+      :on-click #(on-search search-string
+                            result-by-page-count
+                            1)}
+     (if processing "Loading..." "Search now !")]]])
 
 (def search-form
   (.createClass js/React
@@ -97,32 +123,14 @@
                                                                                        result-by-page-count
                                                                                        1))
                                                                        nil)}]]
+                                                       ;If page = search-page, then display a small button, beside the input field.
+                                                       ;Else if page = home-page, then display a big button, below the input field.
                                                        [:div.col-md-4
                                                         (if (= :search page)
-                                                          [:button.btn.btn-default
-                                                           {:type     "button"
-                                                            :disabled (when (or (nil? search-string)
-                                                                                (= "" (.trim search-string))
-                                                                                processing)
-                                                                        "disabled")
-                                                            :on-click #(on-search search-string
-                                                                                  result-by-page-count
-                                                                                  1)}
-                                                           (if processing "Loading..." "Search")]
+                                                          (search-page-button search-string result-by-page-count processing on-search)
                                                           [:span.glyphicon.glyphicon-hand-left {:style {:font-size "30px"}}])]]
                                                  (when (= :home page)
-                                                   [:div#welcome-button.row
-                                                    [:div.col-md-12.center-block
-                                                     [:button.btn.btn-primary.btn-lg.center-block
-                                                      {:type     "button"
-                                                       :disabled (when (or (nil? search-string)
-                                                                           (= "" (.trim search-string))
-                                                                           processing)
-                                                                   "disabled")
-                                                       :on-click #(on-search search-string
-                                                                             result-by-page-count
-                                                                             1)}
-                                                      (if processing "Loading..." "Search now !")]]])]))))
+                                                   (home-page-button search-string result-by-page-count processing on-search))]))))
                      :getInitialState (fn [] #js {:search-string ""})}))
 
 
@@ -201,9 +209,11 @@
 
 
 
+;Initial app rendering
 (.renderComponent js/React (github-stats-search #js {:on-search on-search :state @app-state})
                   (.-body js/document))
 
+;Any app-state change triggers a re-render.
 (add-watch app-state :state-watch
            (fn [_ _ old-state new-state]
              (.renderComponent js/React (github-stats-search #js {:on-search on-search :state new-state})

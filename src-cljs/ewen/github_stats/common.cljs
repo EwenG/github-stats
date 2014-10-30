@@ -30,7 +30,10 @@
   (-> api-response (.-target) (.getResponseJson)))
 
 
-(defn url->param-map [url-string]
+(defn url->param-map
+  "Parse the parameters of a url string.
+  Returns a map of the parameters to their values."
+  [url-string]
   (let [param-strings (-> (clojure.string/split url-string "?")
                           (get 1)
                           (clojure.string/split "&"))]
@@ -38,11 +41,25 @@
          (mapcat (fn [[k v]] [(keyword k) v]))
          (apply array-map))))
 
+(comment
+  (url->param-map "https://api.github.com/search/repositories?q=clojure+in%3Aname&per_page=10&page=2")
+  {:q "clojure+in%3Aname", :per_page "10", :page "2"}
+  )
+
 (defn parse-url-rel [[url-str rel-str]]
   [   (-> (.replace rel-str #"rel=\"(.*)\"" "$1") (.trim) (keyword))
       (-> (.replace url-str #"<(.*)>" "$1") (.trim))])
 
-(defn link-header->map [link-string]
+(comment
+  (parse-url-rel ["<https://api.github.com/search/repositories?q=clojure+in%3Aname&per_page=10&page=2>"
+                  "rel=\"next\""])
+  [:next "https://api.github.com/search/repositories?q=clojure+in%3Aname&per_page=10&page=2"]
+  )
+
+(defn link-header->map
+  "Parse the Link parameter of a REST response header as returned by a call
+  to the github API."
+  [link-string]
   (->> (clojure.string/split link-string ",")
        (mapv #(clojure.string/split % ";"))
        (mapcat parse-url-rel)
@@ -50,9 +67,19 @@
        (map (fn [[k v]] [k (url->param-map v)]))
        (into {})))
 
+(comment
+  (link-header->map "<https://api.github.com/search/repositories?q=clojure+in%3Aname&per_page=10&page=2>; rel=\"next\", <https://api.github.com/search/repositories?q=clojure+in%3Aname&per_page=10&page=100>; rel=\"last\"")
+  {:next {:q "clojure+in%3Aname", :per_page "10", :page "2"}, :last {:q "clojure+in%3Aname", :per_page "10", :page "100"}}
+  )
 
 
-(defn header-map->page-info [header-map]
+
+(defn header-map->page-info
+  "Extract useful page info from a map representing a header returned by
+  a call to the github API.
+  Page info extracted => How many pages of results are available?
+                      => Wich page is the one returned by the current REST response?"
+  [header-map]
   (match [(-> header-map :next :page) (-> header-map :last :page)
           (-> header-map :prev :page) (-> header-map :first :page)]
          [nil nil nil nil] {:page-count 1 :current-page 1}  ;All results in 1 page
@@ -62,6 +89,12 @@
          [next last _ _]  {:page-count (js/parseInt last)
                            :current-page (dec (js/parseInt next))}       ;Multiple page result - current page is NOT the last one
          :else (throw (js/Error. "header-map->page-info error"))))
+
+(comment
+  (header-map->page-info {:next {:q "clojure+in%3Aname", :per_page "10", :page "2"}, :last {:q "clojure+in%3Aname", :per_page "10", :page "100"}})
+  {:page-count 100, :current-page 1}
+
+  )
 
 
 
@@ -95,10 +128,17 @@
 
 (sm/defn ^:always-validate collapse-pagination
   :- [(s/either s/Int (s/eq :placeholder))]
+  "Collapse pagination data in order to be able to display it nicely.
+  (Without taking to much space on the screen)."
   [page-count :- s/Int
    current-page :- s/Int]
   (-> (pagination-blocks page-count current-page)
       insert-placeholders))
+
+(comment
+  (collapse-pagination 100 1)
+  [1 2 3 4 5 :placeholder 99 100]
+  )
 
 
 
