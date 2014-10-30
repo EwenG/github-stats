@@ -129,7 +129,7 @@
 (sm/defn ^:always-validate collapse-pagination
   :- [(s/either s/Int (s/eq :placeholder))]
   "Collapse pagination data in order to be able to display it nicely.
-  (Without taking to much space on the screen)."
+  (Without taking too much space on the screen)."
   [page-count :- s/Int
    current-page :- s/Int]
   (-> (pagination-blocks page-count current-page)
