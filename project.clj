@@ -18,7 +18,7 @@
                            [prismatic/schema "0.3.1"]
                            [ring/ring-core "1.3.0" :exclusions [[org.clojure/clojure]
                                                                 [org.clojure/tools.reader]
-                                                                [srypto-random]
+                                                                [crypto-random]
                                                                 [crypto-equality]]]
                            [org.clojure/core.match "0.2.1"]]
             :dev-dependencies [[lein-cljsbuild "1.0.3"]]
